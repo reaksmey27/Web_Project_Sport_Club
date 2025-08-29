@@ -8,9 +8,11 @@
 }
 
 body {
-  background: url(/images/homePage/backgound.jpg) no-repeat center center/cover;
-  background: linear-gradient(180deg, #3e1f92,#2e176e, #0c0d2b);
+  background: 
+    url(/images/logo.png) no-repeat center center,
+    linear-gradient(90deg, #0c0d2bad, #3E1F92, #2e176ec2);
   background-attachment: fixed;
+  background-size: 300px, cover;
 }
 
 /* Navbar */
