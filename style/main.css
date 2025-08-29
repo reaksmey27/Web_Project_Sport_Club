@@ -8,7 +8,7 @@
 }
 
 body {
-  background: 
+  background:
     url(/images/logo.png) no-repeat center center,
     linear-gradient(90deg, #0c0d2bad, #3E1F92, #2e176ec2);
   background-attachment: fixed;
@@ -28,10 +28,7 @@ body {
   top: 0;
   left: 0;
   z-index: 999;
-  box-shadow: 
-  0 4px 15px rgba(0, 77, 152, 0.6),   /* Blue */
-  0 -4px 15px rgba(165, 0, 68, 0.6); /* Red */
-
+  box-shadow:0 4px 15px rgba(0, 8, 16, 0.6);
 }
 
 .navbar img {
@@ -76,5 +73,81 @@ body {
 }
 
 .navbar ul li a:hover {
-  color:#3E1F92;
+  color: #3E1F92;
+}
+
+.info-container {
+  background: linear-gradient(90deg, #004c9869, #a5004569, #3e1f9269);
+  padding: 32px;
+}
+
+.club-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid blue;
+}
+
+.title-section {
+  text-align: center;
+  padding: 80px 20px 30px;
+  margin-top: 70px;
+}
+
+.title-section h1 {
+  font-size: 40px;
+  color: #0b0340;
+}
+
+.title-section p {
+  font-size: 19px;
+  color: #555;
+}
+
+.position-title {
+  font-size: 36px;
+  margin: 40px 20px 15px;
+  color: #0b0340;
+  border-left: 6px solid #ffcc00;
+  padding-left: 10px;
+}
+
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.player-card {
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.player-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.player-card img {
+  width: 100%;
+  max-width: 200px;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.one img {
+
+  border-radius: 16px;
+}
+
+.player-card h2 {
+  font-size: 18px;
+  color: #333;
 }
