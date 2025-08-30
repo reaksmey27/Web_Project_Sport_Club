@@ -14,9 +14,10 @@
         <img src="/images/barca.png" alt="Logo">
         <ul>
             <li><a href="#" class="active">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
             <li><a href="#player">PLAYER</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
         <img class="user" src="/images/user.png" alt="user">
     </nav>
@@ -27,6 +28,7 @@
             <a href="#" class="btn">See Fixtures</a>
         </div>
     </section>
+
     <!--Upcoming Match -->
     <section class="upcoming-match">
         <h2>Next Match</h2>
@@ -42,6 +44,7 @@
             <a href="#" class="btn">Buy Tickets</a>
         </div>
     </section>
+
     <!-- Latest Results -->
     <section class="latest-results">
         <h2>Latest Wins</h2>
@@ -78,6 +81,7 @@
             </li>
         </ul>
     </section>
+
     <!-- News & Updates -->
     <section class="news-updates">
         <h2>Latest News</h2>
@@ -116,13 +120,93 @@
             <img src="/images/gallery2.png" alt="Barcelona players scoring a goal">
             <img src="/images/gallery3.png" alt="Team celebrating trophy victory">
         </div>
-        <a href="/gallery.html" class="btn">View More</a>
+        <a href="#" class="btn">View More</a>
     </section>
-    <!-- Player Page -->
-    <main id="player" class="info-container">
-        <!-- Page Title -->
-        <section class="title-section" style="margin-top:100px;">
+
+    <!-- About page -->
+    <section id="about" class="club-profile">
+        <!-- Club Logo -->
+        <div class="club-header">
             <img src="/images/barca.png" alt="Club Logo" class="club-logo">
+            <h1>FC Barcelona</h1>
+            <p>Founded: 1899 • Country: Spain</p>
+        </div>
+        <!-- Info Section -->
+        <div class="club-info">
+            <!-- CEO -->
+            <div class="info-card">
+                <img src="/images/CEO.png" alt="CEO">
+                <h2>CEO</h2>
+                <p><strong>Joan Laporta</strong><br> Current President & CEO of FC Barcelona.</p>
+            </div>
+            <!-- Coach -->
+            <div class="info-card">
+                <img src="/images/coach.png" alt="Coach">
+                <h2>Coach</h2>
+                <p><strong>Pep Guardiola</strong><br> One of the greatest tactical minds in football.</p>
+            </div>
+            <!-- Stadium -->
+            <div class="info-card">
+                <img src="/images/stadium.png" alt="Stadium">
+                <h2>Stadium</h2>
+                <p><strong>Camp Nou</strong><br> Capacity: 99,354 • Opened: 1957</p>
+            </div>
+            <!-- About Club -->
+            <div class="info-card">
+                <img src="/images/team.png" alt="About Club">
+                <h2>Prime Season</h2>
+                <p>FC Barcelona’s prime seasons are remembered for dominance in Europe, thrilling football,
+                    and legendary players who defined an era of success and glory.</p>
+            </div>
+            <!-- Achievements -->
+            <div class="info-card">
+                <img src="/images/trophies.png" alt="Trophies">
+                <h2>Achievements</h2>
+                <p>
+                    <strong>La Liga Titles:</strong> 27 <br>
+                    <strong>UEFA Champions League:</strong> 5 <br>
+                    <strong>Copa del Rey:</strong> 31 <br>
+                    <strong>FIFA Club World Cup:</strong> 3
+                </p>
+            </div>
+            <!-- Legends -->
+            <div class="info-card">
+                <img src="/images/messi.png" alt="Legends">
+                <h2>Club Legends</h2>
+                <p>
+                    Famous players who shaped Barça’s history: <br>
+                    <strong>Lionel Messi</strong>, <strong>Xavi Hernández</strong>,
+                    <strong>Andrés Iniesta</strong>, <strong>Ronaldinho</strong>.
+                </p>
+            </div>
+            <!-- Motto -->
+            <div class="info-card">
+                <img src="/images/motto.png" alt="Motto">
+                <h2>Club Motto</h2>
+                <p>
+                    <em>“Més que un club”</em> (More than a club) <br>
+                    Represents the cultural and political importance of FC Barcelona in Catalonia.
+                </p>
+            </div>
+            <!-- Social Media -->
+            <div class="info-card">
+                <img src="/images/social.png" alt="Social Media">
+                <h2>Social Media</h2>
+                <p>
+                    Follow us on: <br>
+                    <a href="https://www.fcbarcelona.com" target="_blank">Official Website</a><br>
+                    <a href="https://www.facebook.com/fcbarcelona" target="_blank">Facebook</a><br>
+                    <a href="https://twitter.com/fcbarcelona" target="_blank">Twitter</a><br>
+                    <a href="https://www.instagram.com/fcbarcelona" target="_blank">Instagram</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Player Page -->
+    <section id="player" class="info-container">
+        <!-- Page Title -->
+        <section class="title-section">
             <h1>FC Barcelona First Team</h1>
             <p>Season 2025/2026</p>
         </section>
@@ -143,6 +227,7 @@
                 <h2>Joan García</h2>
             </div>
         </section>
+
         <!-- Defenders -->
         <h2 class="position-title">Defenders</h2>
         <section class="players-grid">
@@ -165,6 +250,7 @@
                 <h2>Eric García</h2>
             </div>
         </section>
+
         <!-- Midfielders -->
         <h2 class="position-title">Midfielders</h2>
         <section class="players-grid">
@@ -213,7 +299,8 @@
                 <h2>Hansi Flick</h2>
             </div>
         </section>
-    </main>
+    </section>
+
 </body>
 
 </html>
