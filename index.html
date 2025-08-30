@@ -11,19 +11,118 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <img src="/images/logo.png" alt="Logo">
+        <img src="/images/barca.png" alt="Logo">
         <ul>
             <li><a href="#" class="active">HOME</a></li>
-            <li><a href="">PLAYER</a></li>
+            <li><a href="#player">PLAYER</a></li>
             <li><a href="">ABOUT</a></li>
             <li><a href="">CONTACT</a></li>
         </ul>
         <img class="user" src="/images/user.png" alt="user">
     </nav>
-    <main class="info-container">
+    <!--Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Pride. Passion. Power.</h2>
+            <a href="#" class="btn">See Fixtures</a>
+        </div>
+    </section>
+    <!--Upcoming Match -->
+    <section class="upcoming-match">
+        <h2>Next Match</h2>
+        <div class="match-card">
+            <div class="match-teams">
+                <img src="/images/barca.png" alt="FC Barcelona Logo" class="team-logo barce">
+                <span>vs</span>
+                <img src="/images/real.png" alt="Real Madrid Logo" class="team-logo">
+            </div>
+            <p class="vs"><strong>FC Barcelona vs Real Madrid</strong></p>
+            <p>September 5, 2025 | Camp Nou Stadium</p>
+            <p class="countdown">3 days 14 hours 20 minutes</p>
+            <a href="#" class="btn">Buy Tickets</a>
+        </div>
+    </section>
+    <!-- Latest Results -->
+    <section class="latest-results">
+        <h2>Latest Wins</h2>
+        <ul>
+            <li class="win">
+                <div class="match-info">
+                    <img src="/images/barca.png" class="team-logo-small" alt="FC Barcelona Logo">
+                    <span class="team-name">FC Barcelona</span>
+                    <span class="score">2 – 1</span>
+                    <span class="team-name">Sevilla FC</span>
+                    <img src="/images/sevilla.png" class="team-logo-small" alt="Sevilla FC Logo">
+                </div>
+                <div class="match-date">Sept 12, 2025</div>
+            </li>
+            <li class="win">
+                <div class="match-info">
+                    <img src="/images/barca.png" class="team-logo-small" alt="FC Barcelona Logo">
+                    <span class="team-name">FC Barcelona</span>
+                    <span class="score">3 – 0</span>
+                    <span class="team-name">Valencia CF</span>
+                    <img src="/images/valencia.png" class="team-logo-small" alt="Valencia CF Logo">
+                </div>
+                <div class="match-date">Sept 5, 2025</div>
+            </li>
+            <li class="win">
+                <div class="match-info">
+                    <img src="/images/barca.png" class="team-logo-small" alt="FC Barcelona Logo">
+                    <span class="team-name">FC Barcelona</span>
+                    <span class="score">4 – 2</span>
+                    <span class="team-name">Espanyol</span>
+                    <img src="/images/espanyol.png" class="team-logo-small" alt="Espanyol Logo">
+                </div>
+                <div class="match-date">Aug 28, 2025</div>
+            </li>
+        </ul>
+    </section>
+    <!-- News & Updates -->
+    <section class="news-updates">
+        <h2>Latest News</h2>
+        <div class="news-cards">
+            <div class="news-card">
+                <img src="/images/news1.png" alt="New Signing" class="news-img">
+                <h3>New Signing Announced</h3>
+                <p class="news-date">Aug 30, 2025</p>
+                <p>FC Barcelona signs top talent from Europe to strengthen the squad for the new season.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="news-card">
+                <img src="/images/news2.png" alt="Big Win" class="news-img">
+                <h3>Big Win at Camp Nou</h3>
+                <p class="news-date">Sept 12, 2025</p>
+                <p>Barça dominates the league with a 3-0 victory against Sevilla FC, showcasing top form.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="news-card">
+                <img src="/images/news3.png" alt="Fan Event" class="news-img">
+                <h3>Fan Event</h3>
+                <p class="news-date">Sept 15, 2025</p>
+                <p>Meet the players at our annual fan day and enjoy exclusive behind-the-scenes activities.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview -->
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="/images/gallery1.png" alt="FC Barcelona fans cheering at Camp Nou">
+            <img src="/images/gallery2.png" alt="Barcelona players scoring a goal">
+            <img src="/images/gallery3.png" alt="Team celebrating trophy victory">
+        </div>
+        <a href="/gallery.html" class="btn">View More</a>
+    </section>
+    <!-- Player Page -->
+    <main id="player" class="info-container">
         <!-- Page Title -->
         <section class="title-section" style="margin-top:100px;">
-            <img src="/images/logoTeam.png" alt="Club Logo" class="club-logo">
+            <img src="/images/barca.png" alt="Club Logo" class="club-logo">
             <h1>FC Barcelona Squad</h1>
             <p>Season 2025/2026</p>
         </section>
