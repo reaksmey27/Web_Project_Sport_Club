@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background:
+        url(/images/barca.png) no-repeat center center,
+        linear-gradient(90deg, #0c0d2bad, #3E1F92, #2e176ec2);
+    background-attachment: fixed;
+    background-size: 300px, cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    background: linear-gradient(90deg, #004D98, #A50044, #3E1F92);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 4px 15px rgba(0, 8, 16, 0.6);
+}
+
+.navbar img {
+    max-width: 50px;
+}
+
+.navbar .user {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #EDBB00;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 5px 0;
+}
+
+.navbar ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 3px;
+    background: #EDBB00;
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+
+.gallery {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
